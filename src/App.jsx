@@ -4,8 +4,10 @@ import Introduction from './pages/Introduction';
 import Contract from './pages/Contract';
 
 function App() {
+  const basename = import.meta.env.PROD ? '/itis3135-react' : '';
+  
   return (
-    <Router basename="/itis3135-react">
+    <Router basename={basename}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/introduction" element={<Introduction />} />

@@ -9,10 +9,10 @@ function Footer() {
         <a href="https://www.freecodecamp.org/lcccc">FreeCodeCamp</a>
         <a href="https://www.codecademy.com/profiles/core1368374369">Codecademy</a>
         <a href="https://www.linkedin.com/in/%E8%B4%A2-%E6%9D%8E-402498267/">LinkedIn</a>
-        <a href="hobby/">Hobby</a>
+        <a href="https://lccccccccccccccccccccccc.github.io/itis3135/hobby/">Hobby</a>
       </nav>
-      <p>Designed by <a href="learning-crab/index.html">Learning Crab Solutions</a> ©2025</p>
-      <p>Designed by <a href="lcorpdesigns.com/">L Corp Designs</a> ©2025</p>
+      <p>Designed by <a href="https://lccccccccccccccccccccccc.github.io/itis3135/learning-crab/index.html">Learning Crab Solutions</a> ©2025</p>
+      <p>Designed by <a href="https://lccccccccccccccccccccccc.github.io/itis3135/lcorpdesigns.com/">L Corp Designs</a> ©2025</p>
       <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">HTML Validation</a> |
       <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">CSS Validation</a>
     </footer>
