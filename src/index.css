@@ -98,3 +98,81 @@ blockquote {
         font-size: 1.5em;
     }
 }
+
+/* Students page styles */
+.students-page {
+    padding: 20px;
+}
+
+.students-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.student-card {
+    background-color: white;
+    border: 2px solid darkblue;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.student-card h2 {
+    margin-top: 0;
+    color: darkblue;
+}
+
+.student-card p {
+    margin: 10px 0;
+}
+
+.student-card strong {
+    color: darkblue;
+}
+
+/* Search and controls */
+.search-container {
+    margin: 20px 0;
+}
+
+.search-container input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid darkblue;
+    border-radius: 4px;
+}
+
+.view-controls, .navigation-controls {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.view-controls button, .navigation-controls button {
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.view-controls button:hover, .navigation-controls button:hover {
+    background-color: blue;
+}
+
+.navigation-controls button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+.navigation-controls span {
+    font-weight: bold;
+    color: darkblue;
+}
