@@ -5,7 +5,7 @@ import Contract from './pages/Contract';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/itis3135-react">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/introduction" element={<Introduction />} />
