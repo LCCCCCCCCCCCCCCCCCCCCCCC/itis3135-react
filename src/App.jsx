@@ -1,13 +1,11 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Introduction from './pages/Introduction';
 import Contract from './pages/Contract';
 
 function App() {
-  const basename = import.meta.env.PROD ? '/itis3135-react' : '';
-  
   return (
-    <Router basename={basename}>
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/introduction" element={<Introduction />} />
