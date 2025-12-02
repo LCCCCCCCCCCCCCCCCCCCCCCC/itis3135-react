@@ -1,0 +1,60 @@
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
+function Introduction() {
+  return (
+    <div>
+      <Header />
+      <main>
+        <h2>Introduction</h2>
+        
+        <p><strong>Cai Li</strong> | <em>Learning Crab</em></p>
+        
+        <figure>
+          <img src="https://i.imgur.com/HxIia2t.jpeg" alt="Cai Li's photo" width="300" />
+          <figcaption>Cai Li | Learning Crab</figcaption>
+        </figure>
+
+        <p><em>I, Cai Li, certify that this is my original work and complies with academic integrity standards.</em></p>
+        <p><strong>Date:</strong> November 29, 2025</p>
+
+        <hr />
+
+        <ul>
+          <li><strong>Personal Background:</strong> Student interested in technology and learning new skills.</li>
+          
+          <li><strong>Professional Background:</strong> Currently focused on academic studies.</li>
+          
+          <li><strong>Academic Background:</strong> Cybersecurity major at UNC Charlotte.</li>
+          
+          <li><strong>Background in this Subject:</strong> New to web development, required course for my program.</li>
+          
+          <li><strong>Primary Computer Platform:</strong> Windows laptop</li>
+          
+          <li><strong>Courses I'm Taking & Why:</strong>
+            <ul>
+              <li><strong>ITIS 3135 - Web App Design and Development:</strong> Required course.</li>
+              <li><strong>ITSC 3160 - Database Design and Implementation:</strong> Required course.</li>
+              <li><strong>ITIS 3200 - Network Security:</strong> Required course.</li>
+              <li><strong>MATH 1241 - Calculus I:</strong> Required course.</li>
+            </ul>
+          </li>
+          
+          <li><strong>Funny/Interesting Item to Remember me by:</strong> I hate summer.</li>
+          
+          <li><strong>I'd also like to Share:</strong> Looking forward to completing this course requirement successfully.</li>
+        </ul>
+
+        <hr />
+
+        <blockquote>
+          <p>"If the sun is gone, we have the moon. If the moon goes out, we have the stars. And if the stars lose their light, then we are the only light."</p>
+          <footer>— <cite>Nameless Slay Dragon</cite></footer>
+        </blockquote>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+export default Introduction;
